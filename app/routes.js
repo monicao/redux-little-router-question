@@ -1,5 +1,5 @@
 export default {
   '/': { title: 'Home' },
   '/foo': { title: 'Foo' },
-  '/bar': { title: 'Bar' }
+  '/foo/bar': { title: 'Bar' }
 }
