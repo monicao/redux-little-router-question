@@ -10,11 +10,11 @@ class AppComponent extends Component {
           <Fragment forRoute='/'>
             <div>Home</div>
           </Fragment>
-          <Fragment forRoute='/foo'>
-            <div>Foo</div>
-          </Fragment>
           <Fragment forRoute='/foo/bar'>
             <div>Bar</div>
+          </Fragment>
+          <Fragment forRoute='/foo'>
+            <div>Foo</div>
           </Fragment>
           <pre style={{whiteSpace: 'pre-wrap'}}>
             {JSON.stringify(this.props.router)}
